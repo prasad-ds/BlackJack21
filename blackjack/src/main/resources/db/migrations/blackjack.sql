@@ -1,0 +1,8 @@
+CREATE TABLE `users` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `name` VARCHAR(45) NOT NULL,
+  `balance` INT NOT NULL,
+  `version` INT NOT NULL DEFAULT 0,
+  `created` TIMESTAMP NOT NULL,
+  `modified` TIMESTAMP NOT NULL,
+  PRIMARY KEY (`id`));
